@@ -1,0 +1,86 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+.container {
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+h2 {
+    color: #343a40;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    background-color: #fff;
+}
+.table th, .table td {
+    text-align: center;
+    padding: 15px;
+}
+.table thead th {
+    background-color: #007bff;
+    color: #ffffff;
+    border-bottom: 2px solid #0069d9;
+}
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+.table tbody tr:hover {
+    background-color: #e9ecef;
+}
+.btn {
+    border-radius: 50px;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+.btn-danger:hover {
+    background-color: #c82333;
+}
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+.btn-success:hover {
+    background-color: #218838;
+}
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+.password-container {
+    display: flex;
+    align-items: center;
+}
+.password-field {
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 5px;
+    transition: border-color 0.2s;
+}
+.password-field:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
